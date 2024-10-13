@@ -1,0 +1,31 @@
+{
+    "name": "discord-github-integration",
+    "version": "1.1.0",  // バージョンを1.1.0に更新
+    "description": "Discord and GitHub integration bot",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "rinmon",
+    "license": "ISC",
+    "dependencies": {
+      "@octokit/rest": "^21.0.2",
+      "discord.js": "^13.17.1",
+      "dotenv": "^16.4.5"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rinmon/discord-github-integration.git"
+    },
+    "keywords": [
+      "discord",
+      "github",
+      "integration"
+    ],
+    "bugs": {
+      "url": "https://github.com/rinmon/discord-github-integration/issues"
+    },
+    "homepage": "https://github.com/rinmon/discord-github-integration#readme"
+  }
+  
